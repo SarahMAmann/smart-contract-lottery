@@ -3,7 +3,7 @@ const Web3 = require('web3');
 const { interface, bytecode } = require('./compile');
 
 const provider = new HDWalletProvider(
-    'window world question umbrella page century quit derive hollow neutral drum ankle',
+    'SEED_PHRASE',
      'https://rinkeby.infura.io/v3/bb539bfa1d7540978bd78dbfa2f6a3bc'
 );
 const web3 = new Web3(provider);
